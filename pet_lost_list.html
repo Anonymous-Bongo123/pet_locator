@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script src="pet_lost.js"></script>
+        <link rel="stylesheet" href="login.css">
+        <link href="pet_lost.html" rel="import">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Pet Details</title>
+    </head>
+    <body>
+        <center>
+            <h1>
+                Pet Details
+            </h1>
+            <br>
+            <h2>
+                Please help this family find their beloved pet!
+            </h3>
+            <h3>
+                Name of the pet:  
+            </h3>
+            <script src="pet_lost.js">
+                pet_name = document.getElementById("pet_name").value;
+                localStorage.setItem("pet_name", pet_name);
+                animal = document.getElementById("animal").value;
+                localStorage.setItem("animal", animal);
+                pet_breed = document.getElementById("pet_breed").value;
+                localStorage.setItem("pet_breed", pet_breed);
+            </script>
+                
+        </center>
+    </body>
+</html>

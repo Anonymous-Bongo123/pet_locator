@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(0, 166, 255);
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#login {
+    margin-top: 10px;
+}
+#username {
+    margin-bottom: 10px;
+}
+#password {
+    margin-bottom: 10px;
+}
+#sign_up_text {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+#create {
+    margin-top: 10px;
+}
+#yes{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(255, 0, 217);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+#did_pet_lost {
+    color: white;
+}
+#no {
+    background-color: rgb(255, 0, 217);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+#pet_name {
+    color: white;
+    padding-top: 10px;
+}
+#animal {
+    color: white;
+    padding-top: 10px;
+}
+#pet_breed {
+    color: white;
+    padding-top: 10px;
+}
+#pet_details {
+    color: white;
+    margin-top: 10px;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#upload_photo_here {
+    color: white;
+    padding-top: 10px;
+}
